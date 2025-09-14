@@ -11,8 +11,7 @@ def prompt_ticket_request(remaining_tickets):
  while True:
  try:
  print(f"There are {remaining_tickets} tickets remaining.")
- tickets = int(input("How many tickets would you like to purchase? (1 to
-4): "))
+ tickets = int(input("Enter number of tickets you want (1 to 4): "))
 
  if tickets < 1 or tickets > 4:
  print("You can only purchase between 1 and 4 tickets.\n")
@@ -43,3 +42,4 @@ def sell_tickets():
 # Run the program
 
 sell_tickets()
+
