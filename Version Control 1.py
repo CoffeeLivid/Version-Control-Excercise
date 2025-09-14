@@ -3,7 +3,7 @@
 # requests, ensures validation, tracks the number of buyers, and ends when all
 # tickets are sold.
 # CONSTANT
-MAX_TICKETS = 20
+MAX_TICKETS = 10
 # Function to prompt the user for ticket input
 def prompt_ticket_request(remaining_tickets):
  """Prompt user for the number of tickets and validate the input."""
@@ -41,4 +41,5 @@ def sell_tickets():
  print("All tickets have been sold.")
  print(f"Total number of buyers: {total_buyers}")
 # Run the program
+
 sell_tickets()
